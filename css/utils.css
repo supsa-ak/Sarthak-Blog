@@ -20,9 +20,23 @@
 
 
 .btn{
-
+    padding: 6px 6px;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: var(--font1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
-.form-control{
-
+.btn:hover{
+    color: white;
+    background-color: var(--main-bg-color);
+}
+.form-input{
+    padding: 4px 9px;
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 0 17px;
+    font-family: var(--font1);
 }

@@ -23,9 +23,14 @@
     font-family: var(--font2);
 }
 
+
 .nav-left ul li a{
     text-decoration: none;
     color: black;
+}
+.nav-left ul li a:hover{
+    font-weight: bolder;
+    color: var(--main-bg-color);
 }
  
 .nav-left ul{
@@ -40,11 +45,41 @@
 }
 
 .content{
-    height: 95px;
-    background-color: blue;
+    display: flex;
+    height: 300px;
+    /* background-color: rgb(220, 220, 253); */
+    margin-top: 42px;
+    margin-bottom: 28px;
+    padding: 9px;
 }
+
+.content-left{
+    /* width: 50%; */
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content-left h1{
+    margin-bottom: 15px;
+}
+.content-right{
+    /* width: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-right img{
+    height: 299px;
+    border: 2px solid black;
+    width: 306px;
+    border-radius: 178px;
+}
+
 
 .footer{
     height: 50px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
